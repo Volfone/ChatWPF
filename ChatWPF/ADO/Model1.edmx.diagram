@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="310313ec081a4b9fb6d978d3ed87e1b9" Name="Diagram1">
+        <EntityTypeShape EntityType="ChatLMLModel.Message" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChatLMLModel.Sub" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChatLMLModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChatLMLModel.User" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ChatLMLModel.UserSub" Width="1.5" PointX="6" PointY="4.625" IsExpanded="true" />
+        <AssociationConnector Association="ChatLMLModel.FK_Message_User" ManuallyRouted="false" />
+        <AssociationConnector Association="ChatLMLModel.FK_UserSub_Sub" ManuallyRouted="false" />
+        <AssociationConnector Association="ChatLMLModel.FK_UserSub_User" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ChatLMLModel.Login" Width="1.5" PointX="3" PointY="8.75" />
+        <AssociationConnector Association="ChatLMLModel.FK_Login_User" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
